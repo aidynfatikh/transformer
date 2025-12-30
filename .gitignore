@@ -1,0 +1,21 @@
+# Ignore all checkpoint files except latest
+checkpoints
+
+# Data
+en-ru.txt/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
