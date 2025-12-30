@@ -36,9 +36,12 @@ pip install torch numpy
 pip install jupyter
 
 # Download training data for translator
-wget https://www.manythings.org/anki/rus-eng.zip
-unzip rus-eng.zip -d en-ru.txt
-rm rus-eng.zip
+mkdir -p data
+cd data
+wget https://object.pouta.csc.fi/OPUS-Tatoeba/v2/moses/en-ru.txt.zip
+unzip en-ru.txt.zip
+rm en-ru.txt.zip
+cd ..
 ```
 
 Note: The translator model requires the Tatoeba English-Russian parallel corpus. The GPT model uses the included `input.txt` file.

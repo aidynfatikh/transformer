@@ -2,7 +2,7 @@
 checkpoints
 
 # Data
-en-ru.txt/
+data/
 
 # Python
 __pycache__/
